@@ -11,7 +11,8 @@ data_files.extend([
     "pages/longer_equation.png",
     "pages/single_equation.png",
     "pages/video_tutorial.mp4",
-    "pages/where.png"
+    "pages/where.png",
+    "favicon.ico"
     ])
 
 print(data_files)
@@ -24,7 +25,7 @@ pack(
         "indicators_n_pop_data_25_26.py"
         ],
     extra_files_to_link=data_files,
-    prepend_github_path="pete4nhs/eFIT-tool",
+    prepend_github_path="bergam0t/eFIT-tool-stlitepack",
     use_raw_api=True
     )
 
