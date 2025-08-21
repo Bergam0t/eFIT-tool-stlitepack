@@ -46,7 +46,8 @@ def list_files_in_folders(folders, recursive=False, pattern=None):
 
 data_files = list_files_in_folders(["input_data_f", "input_data_ind", "input_data_m", "input_data_other"], pattern="csv")
 
-data_files.extend([".streamlit/config.toml"
+data_files.extend([".streamlit/config.toml",
+                   "indicators_n_pop_data_25_26.py"
                 #    , "pages/longer_equation.png", "pages/single_equation.png",
                 #    "pages/video_tutorial.mp4", "pages/where.png"
                    ])
